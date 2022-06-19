@@ -48,15 +48,16 @@
 {
   font-size:3rem;
   color:blueviolet;
-  transform: rotate(90deg);
+  
   transition: all 800ms ease;
 }
 
 .add-btn:hover
 {
-  color: rgb(90, 221, 90);
- 
+  color: rgb(77, 178, 77);
+ transition: all 2s ease;
   transform: rotate(45deg);
+  transform: rotate(-360deg);
 }
 
 
