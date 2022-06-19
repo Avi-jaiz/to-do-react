@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import {IoIosAddCircle} from 'react-icons/io';
-import {MdDelete} from 'react-icons/md'
+
 import TodoList from './TodoList';
 
 

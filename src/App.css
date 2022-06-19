@@ -139,3 +139,40 @@ li:hover{
 
 
 
+/* media query */
+
+@media screen and (max-width:300px)
+{
+  .app-container
+  {
+    width: 16rem;
+    height: 30rem;
+  }
+  
+  .head{
+    margin-top: 2.2rem;
+    font-size: 1.5rem;
+  }
+.input-area{
+ display: flex;
+ flex-direction: row;
+
+ 
+
+}
+ 
+
+  .add-btn
+  {
+    font-size: 1.9rem;
+    margin-left: -2rem;
+
+  }
+  
+
+ ul 
+ {
+  scale:0.8;
+  font-size:1rem
+ }
+}
