@@ -14,6 +14,7 @@
   background-color: #c0e4ed;
   justify-content: center;
   align-items: center;
+  
 }
 
 .app-container
@@ -143,10 +144,23 @@ li:hover{
 
 @media screen and (max-width:300px)
 {
+
+   .App
+   {
+    width:110%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+   }
+
   .app-container
   {
-    width: 16rem;
-    height: 30rem;
+    width:fit-content;
+    height :fit-content;
+ 
   }
   
   .head{
@@ -156,7 +170,6 @@ li:hover{
 .input-area{
  display: flex;
  flex-direction: row;
-
  
 
 }
@@ -176,3 +189,5 @@ li:hover{
   font-size:1rem
  }
 }
+
+
